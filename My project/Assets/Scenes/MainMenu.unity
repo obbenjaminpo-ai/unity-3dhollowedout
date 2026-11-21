@@ -342,8 +342,8 @@ RectTransform:
   - {fileID: 1167478444}
   - {fileID: 1958651511}
   - {fileID: 643493779}
-  - {fileID: 572862519}
   - {fileID: 1166095712}
+  - {fileID: 572862519}
   - {fileID: 1132527129}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1592,6 +1592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1132527129}
   - component: {fileID: 1132527130}
+  - component: {fileID: 1132527131}
   m_Layer: 5
   m_Name: MenuButtons
   m_TagString: Untagged
@@ -1648,6 +1649,21 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &1132527131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132527128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0f98dc5d50e1f41819a28fd6874ab3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameSceneName: GameLevel
+  mainMenuPanel: {fileID: 0}
+  optionsPanel: {fileID: 0}
 --- !u!1 &1166095711
 GameObject:
   m_ObjectHideFlags: 0
